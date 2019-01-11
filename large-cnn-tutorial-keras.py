@@ -21,6 +21,7 @@ import cnnutils as cu
 seed = 7
 np.random.seed(seed)
 
+# import MNIST dataset
 (X_train, y_train), (X_test, y_test), num_classes = pr.get_and_prepare_data_mnist()
 
 # define the larger model
